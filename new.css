@@ -1,0 +1,399 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border;
+}
+body{}
+
+nav{
+display:flex;
+align-items: center;
+justify-content: space-around;
+}
+.logo{
+display: flex;
+align-items: center;
+}
+.logo img{
+margin-top: 10px;
+}
+.logo-text{
+font-size: 30px; 
+color: red;
+padding-left: 4px;
+}
+.logo b{
+color: black;
+}
+.logo b:hover{
+color: red;
+}
+.logo img{
+height: 50px;
+width: 50px;
+border-radius: 50%;
+border: 2px solid black;
+transition: ease 0.9s;
+}
+.logo img:hover{
+opacity: 0.1;
+}
+nav ul li{
+display: inline-block;
+margin: 0 10px;
+}
+nav ul li a{
+text-decoration: none;
+color: black;
+font-size: 20px;
+transform: scale(1.2);
+}
+a{
+text-decoration: none;
+transition: ease 0.3s;
+}
+a:hover{
+text-decoration: underline;
+text-decoration-color: red;
+transform: scale(1.2);
+}
+header{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.header-text{
+
+}
+.header-text h1{
+font-size: 50px;
+color:brown;
+}
+.header-text p{
+font-size: 20px;
+margin-top: 20px;
+line-height:1.6;
+text-align: center;
+}
+.header button{
+padding-top: 8px;
+padding-bottom: 8px;
+width: 120px;
+border-radius: 30px;
+margin-top: 14px;
+background-color: white;
+transition: ease 0.9s;
+margin-left: 20px;
+}
+.header button:hover{
+background-color: orangered;
+color:white;
+transform: scale(0.9);
+border: none;
+}
+.header-img{
+margin-top: 20px;
+}
+.header-img img{
+transition: ease 0.9s;
+border: 1px solid black;
+border-radius: 60%;
+background-color: green;
+}
+.header-img img:hover{
+border-radius: 40px;
+}
+section{
+
+}
+.section-bolk{
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-top: 30px;
+}
+
+.about{
+text-align: center;
+margin-top: 30px;
+}
+.about h2{
+font-size: 40px;
+/* color: orangered;/ */
+}
+.about p{
+font-size: 20px;
+}
+.section-img{
+display: flex;
+}
+
+.section-img img{
+height: 300px;
+width: 400px;
+transition: ease 0.9s;
+}
+.section-img img:hover{
+border-radius: 40%;
+
+}
+.section-text{
+margin-right: 90px;
+}
+.section-text h1{
+font-size: 40px;
+}
+.section-text p{
+font-size: 20px;
+line-height: 1.6;
+}
+
+.serbices{
+margin-top: 30px;
+}
+.serbices-text{}
+
+.serbises-text{
+text-align: center;
+color: orangered;
+}
+.tu-img{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.on-img{
+width: 300px;
+text-align: center;
+padding-bottom: 20px;
+border-radius: 30px;
+background-color:rgb(30, 229, 236);
+}
+.on-img img{
+transition: 1.3s;
+height: 500px;
+}
+.on-img img:hover{
+transform: scale(0.9);
+}
+.on-img h3{
+margin-top: 3px;
+}
+
+.on-img p{
+margin-top: 9px;
+}
+.to-img{
+background-color: rgb(172, 150, 150);
+width: 300px;
+padding-top: 9px;
+text-align: center;
+padding-bottom: 20px;
+border-radius: 30px;
+}
+.to-img img{
+transition:  1.3s;
+}
+.to-img img:hover{
+transform: scale(0.9);
+}
+.to-img h3{
+margin-top: 3px;    
+}
+.to-img p{
+margin-top: 9px;
+}
+.on-img img{
+height: 200px;
+width: 200px;
+padding-top: 9px;
+border-radius: 50%;
+}
+.to-img img{
+height: 200px;
+width: 200px;
+border-radius: 50%;
+}
+.contact{
+
+}
+.get{
+display: flex;
+justify-content:space-around;
+background-color: rgb(238, 235, 235);
+
+}
+.contact h1{
+ text-align: center; 
+ color: orangered;
+ margin-top: 40px;
+}
+.contact-form{
+/* border: 1px solid black; */
+width: 300px;
+height: 500px;
+padding-top: 10px;
+margin-top: 30px;
+padding-left: 30px;
+}
+.contact-form input{
+margin-top: 10px;
+}
+input{
+height: 40px;
+width: 300px;
+/* background-color:rgb(233, 232, 232); */
+border: none;
+}
+.text{
+height: 200px;
+margin-top: 10px;
+}
+.text::placeholder{
+margin: 70px;
+}
+.contact-form button{
+margin-top: 20px;
+height: 40px;
+width: 300px;
+background-color:blueviolet;
+border: none;
+font-size: 20px;
+color: white;
+}
+.contact-form button:hover{
+background-color: green;
+border-radius: 20px;
+transition: all 1.2s;
+}
+.contact-img{
+padding-top: 50px;
+}
+
+.contact-img img{
+height: 200px;
+border-radius: 20px;
+}
+
+.contact-icon{}
+
+.contact-icon i{
+margin-top: 25px;
+border: 1px solid black;
+height: 20px;
+width: 25px;
+text-align: center;
+padding-top: 4px;
+border-radius: 50%;
+}
+.contact-icon i:hover{
+color: red;
+}
+@media only screen and (max-width: 2000px){
+body{
+background-color: rgb(103, 99, 99);
+}
+.logo{}
+.header-text{
+margin-left: 100px;
+}
+.header-text h1{
+font-size: 90px;
+}
+.header-text p{
+font-size: 40px;
+}
+.header button{
+text-align: center;
+margin-left: 3rem;
+}
+.header-img img{
+height: 650px;
+margin-right: 100px;
+margin-top: 50px;
+}
+.about h2{
+font-size: 90px;
+color:orangered;
+}
+.about p{
+font-size: 40px;
+}
+.section-text{
+padding-right: 100px;
+}
+.section-img img{
+height: 500px;
+width: 800px;
+margin-left: 30px;
+}
+.section-text h1{
+font-size: 90px;
+}
+.section-text p{
+font-size: 50px;
+}
+.serbises-text h1{
+font-size: 80px;
+}
+.contact h1{
+font-size: 80px;
+}
+.tu-img{
+margin-top: 30px;
+}
+.on-img{
+ width: 500px;
+ height: 520px;
+ margin-right: 100px;
+}
+
+.on-img img{
+height: 300px;
+width: 300px;
+margin-top: 10px;
+}
+.on-texct h3{
+font-size: 50px;
+}
+.on-texct p{
+font-size: 30px;
+}
+.to-img{
+width: 500px;
+height: 520px;
+margin-right: 100px;
+}
+
+.to-img img{
+height: 300px;
+width: 300px;
+margin-top:  10px;
+}
+.to-text h3{
+font-size: 50px;
+}
+.to-text p{
+font-size: 30px;
+}
+.contact h1{
+padding-bottom: 20px;
+}
+.contact-form h3{
+font-size: 30px;
+}
+input{
+height: 50px;
+width: 500px;
+}
+.contact-form button{
+width: 500px;
+}
+.contact-img{
+margin-right: 70px;
+width: 330px;
+}
+.contact-img img{
+height: 260px;
+}
+}
